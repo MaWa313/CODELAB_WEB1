@@ -1,0 +1,20 @@
+table {
+    border-collapse: double;
+    width: 40%;
+    background-color: gold;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: gold;
+    color: black solid;
+}
+
+tr:nth-child(even) {
+    background-color: gold;
+}
